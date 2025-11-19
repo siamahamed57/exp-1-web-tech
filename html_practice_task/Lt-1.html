@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Ibrahim Khalil | Portfolio</title>
+    <meta name="author" content="Mohammad Ibrahim Khalil">
+    <meta name="description" content="Personal portfolio webpage for internship showcasing education, biography, and contact form.">
+    <meta name="keywords" content="Portfolio, Student, Internship, Web Developer, Computer Science">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.7;
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main {
+    width: 85%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.bio-section p {
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background: #333;
+    color: #fff;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px;
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #444;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+    margin-top: 40px;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mohammad Ibrahim Khalil</h1>
+        <nav>
+            <ul>
+                <li><a href="#bio">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="bio" class="bio-section">
+            <h2>About Me</h2>
+            <p>
+                I am a Computer Science undergraduate student passionate about web development,
+                problem-solving, and creating meaningful digital solutions. I aim to secure an
+                internship where I can apply my skills and grow professionally.
+            </p>
+        </section>
+
+        <section id="education" class="education-section">
+            <h2>Educational Qualifications</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BSc in Computer Science</td>
+                        <td>AIUB</td>
+                        <td>2022–Present</td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr>
+                        <td>HSC</td>
+                        <td>Kaliakair Degree College</td>
+                        <td>2021</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>Uttar Gazaria High School</td>
+                        <td>2019</td>
+                        <td>A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Mohammad Ibrahim Khalil. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

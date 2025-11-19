@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroMart - Product Catalogue</title>
+    <meta name="author" content="Mohammad Ibrahim Khalil">
+    <meta name="description" content="ElectroMart product catalogue showcasing electronic gadgets with images, prices, and buy links.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        header {
+            background: #222;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        main {
+            margin-top: 30px;
+        }
+
+        fieldset {
+            border: 2px solid #444;
+            padding: 20px;
+            background: #fff;
+        }
+
+        legend {
+            padding: 0 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        caption {
+            caption-side: top;
+            font-size: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        th, td {
+            border: 1px solid #bbb;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background: #333;
+            color: white;
+        }
+
+        td img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+
+        a.buy-btn {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            padding: 15px;
+            background: #222;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <fieldset>
+        <legend>Available Products</legend>
+
+        <table>
+            <caption>ElectroMart Product Catalogue</caption>
+
+            <thead>
+                <tr>
+                    <th>Product Image</th>
+                    <th>Product Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><img src="https://i.imgur.com/6J6JqQp.png" alt="Smartphone"></td>
+                    <td><strong>Smartphone Pro X</strong></td>
+                    <td>6.5-inch OLED display<br>128GB storage<br>5000mAh battery</td>
+                    <td>৳499</td>
+                    <td><a href="#" class="buy-btn">Buy Now</a></td>
+                </tr>
+
+                <tr>
+                    <td><img src="https://i.imgur.com/aJ5nZ8u.png" alt="Laptop"></td>
+                    <td><strong>Laptop UltraBook 15</strong></td>
+                    <td>Intel Core i7<br>16GB RAM<br>512GB SSD</td>
+                    <td>৳899</td>
+                    <td><a href="#" class="buy-btn">Buy Now</a></td>
+                </tr>
+
+                <tr>
+                    <td><img src="https://i.imgur.com/0dJkO7H.png" alt="Smartwatch"></td>
+                    <td><strong>Smartwatch Active</strong></td>
+                    <td>Heart-rate monitor<br>Bluetooth 5.0<br>Water-resistant</td>
+                    <td>৳199</td>
+                    <td><a href="#" class="buy-btn">Buy Now</a></td>
+                </tr>
+
+                <tr>
+                    <td><img src="https://i.imgur.com/Q3D5i0m.png" alt="Speaker"></td>
+                    <td><strong>Bluetooth Speaker Max</strong></td>
+                    <td>Deep bass<br>10-hour playback<br>Portable design</td>
+                    <td>৳79</td>
+                    <td><a href="#" class="buy-btn">Buy Now</a></td>
+                </tr>
+
+                <tr>
+                    <td><img src="https://i.imgur.com/vuFqNdr.png" alt="Tablet"></td>
+                    <td><strong>Tablet Plus 10</strong></td>
+                    <td>10-inch HD screen<br>64GB storage<br>Quad-core processor</td>
+                    <td>৳299</td>
+                    <td><a href="#" class="buy-btn">Buy Now</a></td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="5">Total Products: 5</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </fieldset>
+</main>
+
+<footer>
+    © 2025 ElectroMart | Contact: support@electromart.com
+</footer>
+
+</body>
+</html>

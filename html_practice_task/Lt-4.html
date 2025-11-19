@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mohammad Ibrahim Khalil">
+    <meta name="description" content="TasteHub - Explore our mouth-watering restaurant menu with starters, main course, desserts, and drinks.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TasteHub Restaurant Menu</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f8f8f8;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background: #000000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 80px;
+            display: block;
+            margin: auto;
+            border-radius: 50%;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            width: 90%;
+            max-width: 900px;
+            margin: 30px auto;
+        }
+
+        section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            color: #8B0000;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        article {
+            padding: 12px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        article:last-child {
+            border-bottom: none;
+        }
+
+        strong {
+            font-size: 18px;
+        }
+
+        .price {
+            float: right;
+            font-weight: bold;
+            color: #8B0000;
+        }
+
+        section img {
+            width: 120px;
+            height: 90px;
+            object-fit: cover;
+            border-radius: 5px;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .back-top {
+            display: inline-block;
+            margin-top: 15px;
+            text-decoration: none;
+            font-size: 14px;
+            color: #8B0000;
+        }
+
+        fieldset {
+            border: 2px solid #8B0000;
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            background: #fff;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #8B0000;
+        }
+
+        aside {
+            background: #fff8e1;
+            padding: 15px;
+            border-left: 4px solid #8B0000;
+            margin-bottom: 30px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #ffcccb;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="https://i.imgur.com/mJ5Jt6G.png" alt="TasteHub Logo">
+    <h1>TasteHub Restaurant</h1>
+    <p>Deliciousness Delivered Fresh Every Day!</p>
+
+    <nav>
+        <a href="#starters">Starters</a>
+        <a href="#maincourse">Main Course</a>
+        <a href="#desserts">Desserts</a>
+        <a href="#drinks">Drinks</a>
+    </nav>
+</header>
+
+<main>
+
+    <aside>
+        <h3>📣 Today’s Special Offers</h3>
+        <p>• 10% off on all Main Course items</p>
+        <p>• Buy 1 Get 1 Free: Drinks</p>
+        <p>• Free Dessert with orders above ৳40</p>
+    </aside>
+
+    <fieldset>
+        <legend>Chef’s Special</legend>
+
+        <article>
+            <strong>Grilled Salmon Deluxe</strong> – Served with buttered vegetables and lemon sauce.
+            <span class="price">৳22.99</span>
+        </article>
+
+        <article>
+            <strong>Steak Royale</strong> – Premium beef steak with garlic mashed potatoes.
+            <span class="price">৳27.50</span>
+        </article>
+
+        <article>
+            <strong>Chicken Alfredo Pasta</strong> – Creamy sauce with tender chicken slices.
+            <span class="price">৳16.99</span>
+        </article>
+    </fieldset>
+
+    <section id="starters">
+        <h2>Starters</h2>
+        <ul>
+            <article>
+                <strong>Garlic Bread</strong>
+                <span class="price">৳5.99</span>
+                <br>
+                Crispy garlic bread with cheese topping.
+                <img src="https://i.imgur.com/JA0YJwU.jpg" alt="Garlic Bread">
+            </article>
+
+            <article>
+                <strong>Chicken Soup</strong>
+                <span class="price">৳7.49</span>
+                <br>
+                Warm, creamy chicken soup with herbs.
+                <img src="https://i.imgur.com/48xHSzJ.jpg" alt="Chicken Soup">
+            </article>
+        </ul>
+
+        <a href="#top" class="back-top">Back to Top</a>
+    </section>
+
+    <hr>
+
+    <section id="maincourse">
+        <h2>Main Course</h2>
+        <ul>
+            <article>
+                <strong>Beef Steak</strong>
+                <span class="price">৳24.99</span>
+                <br>
+                Juicy grilled steak served with mashed potatoes.
+                <img src="https://i.imgur.com/y3D4jEe.jpg" alt="Beef Steak">
+            </article>
+
+            <article>
+                <strong>Chicken Biryani</strong>
+                <span class="price">৳14.50</span>
+                <br>
+                Traditional biryani with aromatic spices.
+                <img src="https://i.imgur.com/YQTk7Us.jpg" alt="Chicken Biryani">
+            </article>
+        </ul>
+
+        <a href="#top" class="back-top">Back to Top</a>
+    </section>
+
+    <hr>
+
+    <section id="desserts">
+        <h2>Desserts</h2>
+        <ul>
+            <article>
+                <strong>Chocolate Cake</strong>
+                <span class="price">৳6.99</span>
+                <br>
+                Rich chocolate cake topped with cream.
+                <img src="https://i.imgur.com/foV8xqR.jpg" alt="Chocolate Cake">
+            </article>
+
+            <article>
+                <strong>Ice Cream Sundae</strong>
+                <span class="price">৳4.99</span>
+                <br>
+                Vanilla ice cream served with nuts and syrup.
+                <img src="https://i.imgur.com/qFy2eDa.jpg" alt="Ice Cream Sundae">
+            </article>
+        </ul>
+
+        <a href="#top" class="back-top">Back to Top</a>
+    </section>
+
+    <hr>
+
+    <section id="drinks">
+        <h2>Drinks</h2>
+        <ul>
+            <article>
+                <strong>Fresh Orange Juice</strong>
+                <span class="price">৳3.99</span>
+                <br>
+                Pure freshly squeezed orange juice.
+                <img src="https://i.imgur.com/R4tq0tW.jpg" alt="Orange Juice">
+            </article>
+
+            <article>
+                <strong>Iced Coffee</strong>
+                <span class="price">৳4.50</span>
+                <br>
+                Cold coffee served with ice and cream.
+                <img src="https://i.imgur.com/BKGGXz4.jpg" alt="Iced Coffee">
+            </article>
+        </ul>
+
+        <a href="#top" class="back-top">Back to Top</a>
+    </section>
+
+    <div style="text-align:center; margin-top:20px;">
+        <a href="#" style="font-weight:bold; color:#8B0000; text-decoration:none;">Book a Table</a>
+    </div>
+
+</main>
+
+<footer>
+    TasteHub Restaurant<br>
+    123 Food Street, Dhaka<br>
+    Contact: +880 1234 567 890<br>
+    Opening Hours: 10 AM – 11 PM<br><br>
+
+    <a href="#">Facebook</a> |
+    <a href="#">Instagram</a> |
+    <a href="#">Twitter</a>
+
+    <p style="margin-top:15px;">© 2025 TasteHub Restaurant | All Rights Reserved</p>
+    <a href="#top" style="color:#ffcccb;">Back to Top</a>
+</footer>
+
+</body>
+</html>
